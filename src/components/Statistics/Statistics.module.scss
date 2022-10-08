@@ -1,0 +1,19 @@
+.stat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__good {
+        color: darkgreen;
+    }
+    &__neutral {
+        color: darkgoldenrod
+    }
+    &__bad {
+        color: darkred
+    }
+}
+
+p {
+    margin: 10px;
+}
